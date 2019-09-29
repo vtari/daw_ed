@@ -13,6 +13,6 @@ public class Usuario implements Serializable{
 
 	public String toString() {
 		String pwd = (password == null) ? "(n/a)" : password;
-		return "Información de Usuario: \n   Nombre: " + nombre + "\n Contraseña: " + pwd;
+		return "Información Usuario: \n   Nombre: " + nombre + "\n Contraseña: " + pwd;
 	}
 }
